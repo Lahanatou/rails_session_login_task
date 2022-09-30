@@ -1,38 +1,38 @@
 ja:
   activerecord:
     models:
-      task: タスク
+      task: Tâche
     attributes:
       task:
-        title: タイトル
-        content: 内容
+        title: Titre.
+        content: Contenu
   errors:
     format: "%{attribute}%{message}"
     messages:
-      blank: を入力してください
+      blank: Saisissez le
   helpers:
     submit:
-      create: 登録する
-      update: 更新する
+      create: Enregistrez-vous.
+      update: Mise à jour.
   common:
-    new: 新規作成
-    show: 詳細
-    edit: 編集
-    destroy: 削除
-    back: 戻る
-    confirm_destroy: 本当に削除してもよろしいですか？
+    new: Créez une nouvelle tâche 
+    show: Détail.
+    edit: Edition
+    destroy: Suppression
+    back: Retourner
+    confirm_destroy: Vous êtes sûr de vouloir le supprimer ?
   tasks:
     index:
-      title: タスク一覧ページ
+      title: Page de la liste des tâches
     new:
-      title: タスク登録ページ
+      title: Page d'enregistrement des tâches
     edit:
-      title: タスク編集ページ
+      title: Page d'édition des tâches
     show:
-      title: タスク詳細ページ
+      title: Page de détail de la tâche
     create:
-      created: タスクを登録しました
+      created: Tâche enregistrée.
     update:
-      updated: タスクを更新しました
+      updated: Mise à jour des tâches.
     destroy:
-      destroyed: タスクを削除しました
+      destroyed: Tâche supprimée.
