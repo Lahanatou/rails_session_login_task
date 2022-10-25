@@ -1,3 +1,8 @@
 <h2>Page de: <%= @user.name %></h2>
 <h2>Son adresse e-mail est: <%= @user.email %></h2>
 <h1><%= link_to t('common.new'), new_task_path %></h1>
+<div class="link-footer">
+  <%= link_to "Edit", edit_user_path, id: "edit-user" %>
+  |
+  <%= link_to t('common.destroy'), @user, id: "destroy-user", method: :delete, data: { confirm: t('common.confirm_destroy') } %>
+</div>
